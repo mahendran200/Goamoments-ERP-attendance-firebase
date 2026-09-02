@@ -1,0 +1,16 @@
+# Firebase App Hosting build/runtime config.
+# https://firebase.google.com/docs/app-hosting/configure
+
+runConfig:
+  minInstances: 0
+  maxInstances: 2
+
+# Non-secret env vars available at runtime. The Firebase Admin SDK on App
+# Hosting uses Application Default Credentials automatically, so no service
+# account key is required here. Add secrets with:
+#   firebase apphosting:secrets:set FIREBASE_SERVICE_ACCOUNT
+# and reference them here if you ever need one (e.g. for local emulation
+# parity), for example:
+# env:
+#   - variable: FIREBASE_SERVICE_ACCOUNT
+#     secret: FIREBASE_SERVICE_ACCOUNT
